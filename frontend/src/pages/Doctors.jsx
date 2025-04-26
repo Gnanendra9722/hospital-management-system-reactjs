@@ -156,10 +156,10 @@ const Doctors= () => {
           <p className="text-neutral-500">No doctors found matching your search criteria.</p>
         </div>
       )}
-       <Modal isOpen={isModalOpen} onClose={closeModal} className='h-[600px] w-[800px] overflow-y'>
+       <Modal isOpen={isModalOpen} onClose={closeModal} className='w-[600px]'>
           <div className='w-full h-full'>
             <h1 className='text-[24px] font-bold text-center'>Add Doctors</h1>
-            <DoctorForm />
+            
           </div>
        </Modal>
     </div>
